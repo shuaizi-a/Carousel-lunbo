@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .kj{
+            position: relative;
+        }
+        #kk{
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 4px;
+            margin-left: 2px;
+        }
+        #top{
+            width: 144px;
+            float: left;
+        }
+        #top img{
+            width: 144px;
+        }
+        #qh{
+            width: 446px;
+            float: left;
+            margin-left: 10px;
+        }
+        #qh img{
+            width: 446px;
+            display: none;
+        }
+        #qh .xians{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="kj">
+        <!-- 小图 -->
+        <div id="top">
+            <img src="img/1.jpg" alt="">
+            <img src="img/2.jpg" alt="">
+            <img src="img/3.jpg" alt="">
+        </div>
+        <!-- 框 -->
+        <img id="kk" src="img/pointer.png" alt="">
+        <!-- 大图 -->
+        <div id="qh">
+            <img src="img/1.jpg" alt="" class="xians">
+            <img src="img/2.jpg" alt="">
+            <img src="img/3.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
